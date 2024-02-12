@@ -14,16 +14,16 @@ The Markov model for text classification is a statistical approach used to analy
 2. **Transition Probabilities:** In the context of text, these are the probabilities of transitioning from one word to another. These probabilities are calculated based on the frequency of word occurrences in a given text corpus.
 
 3. **Order:** The "order" of a Markov model refers to the number of preceding words considered when predicting the next word. For example, a first-order Markov model considers only the preceding word, while a second-order Markov model considers the preceding two words.
-<br>
-<br>
+
+
 *Usage:*
-<br>
+
 **Text Generation:** Markov models can be used to generate realistic-looking text by probabilistically predicting the next word in a sequence based on the current word or words.
-<br>
+
 **Text Classification:** Markov models can be employed as classifiers to determine the likelihood of a given text belonging to a particular category or class.
 
 *Implementation:*
-<br>
+
 **Training:** The Markov model is trained on a corpus of text data by calculating transition probabilities between words or sequences of words.
 
 **Prediction:** Given a sequence of words, the Markov model predicts the next word based on the highest probability transition from the current sequence.
